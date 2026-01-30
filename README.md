@@ -46,7 +46,6 @@ The system calculates advanced statistical states:
 * **LLM (GPT-2)	AI Auditing:** Automatically synthesizes complex security logs into readable executive summaries.
 * **DevOps	Lifecycle Management:** Automated process termination and environment cleanup via stop_all.bat.
 
-## Screenshots
 ### Executive Dashboard
 | **Executive Dashboard (Gold UI)** | **Audit Log & Heuristics** |
 | :---: | :---: |
@@ -87,7 +86,7 @@ python business.py
 streamlit run app.py
 ```
 
-#### 4. Process Management
+### 4. Process Management
 
 To safely terminate all background Python and Java (Spark/Kafka) processes, use the provided utility script:
 
