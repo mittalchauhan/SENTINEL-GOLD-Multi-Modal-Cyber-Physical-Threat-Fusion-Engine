@@ -12,7 +12,7 @@ Sentinel Gold is an advanced security orchestration platform that synchronizes d
 
 **Scenario:** A high-risk phishing link is clicked inside the office. Sentinel automatically checks CCTV for unauthorized persons at that workstation and triggers a LOCKDOWN if the risk score crosses the threshold.
 
-## 🛡️ Strategic Impact & Cybersecurity Use Case
+## Strategic Impact & Cybersecurity Use Case
 * **Cyber-Physical Correlation:** Automatically correlates digital indicators (phishing URLs) with physical telemetry (CCTV human presence).
 * **Autonomous Response:** Uses Reinforcement Learning logic to trigger `EMERGENCY-LOCKDOWN` protocols without human latency.
 * **AI-Driven Governance:** Leverages LLMs (GPT-2) to instantly convert complex technical telemetry into "Executive Summaries," bridging the gap between engineering and management.
@@ -25,7 +25,7 @@ The system operates across four layers:
 4. **Executive Suite (`app.py` & `business.py`):** A high-end Streamlit dashboard providing heuristic nodes, entropy tracking, and automated business reports.
 
 ## Tech Stack
-***Data Processing:** Apache Spark, Kafka, PySpark[cite: 1, 2].
+* **Data Processing:** Apache Spark, Kafka, PySpark[cite: 1, 2].
 * **Computer Vision:** OpenCV (HOG Descriptors)[cite: 2].
 * **AI/NLP:** HuggingFace Transformers (GPT-2).
 * **Dashboard:** Streamlit, Plotly, Pandas.
@@ -38,13 +38,13 @@ The system calculates advanced statistical states:
 - **Fused Score:** Weighted average (60% Cyber / 40% Physical)[cite: 2].
 
 ## Core Technical Capabilities & Implementation
-**Big Data (Kafka)	Scalable Ingestion:** Handles high-velocity threat feeds via a distributed message broker.
-**Big Data (PySpark)	Real-time Processing:** Uses Spark Structured Streaming for low-latency data transformation.
-**Fusion Engine	Multi-Modal Correlation:** Merges digital risk (URLs) with physical risk (CCTV) into a unified vector.
-**Computer Vision	Human Detection:** Uses OpenCV (HOG) to inject real-world physical telemetry into the pipeline.
-**Reinforcement Learning	Autonomous Logic:** Implements a reward-based logic gate to select mitigation actions (Lockdown vs Alert).
-**LLM (GPT-2)	AI Auditing:** Automatically synthesizes complex security logs into readable executive summaries.
-**DevOps	Lifecycle Management:** Automated process termination and environment cleanup via stop_all.bat.
+* **Big Data (Kafka)	Scalable Ingestion:** Handles high-velocity threat feeds via a distributed message broker.
+* **Big Data (PySpark)	Real-time Processing:** Uses Spark Structured Streaming for low-latency data transformation.
+* **Fusion Engine	Multi-Modal Correlation:** Merges digital risk (URLs) with physical risk (CCTV) into a unified vector.
+* **Computer Vision	Human Detection:** Uses OpenCV (HOG) to inject real-world physical telemetry into the pipeline.
+* **Reinforcement Learning	Autonomous Logic:** Implements a reward-based logic gate to select mitigation actions (Lockdown vs Alert).
+* **LLM (GPT-2)	AI Auditing:** Automatically synthesizes complex security logs into readable executive summaries.
+* **DevOps	Lifecycle Management:** Automated process termination and environment cleanup via stop_all.bat.
 
 ## Screenshots
 ### Executive Dashboard
