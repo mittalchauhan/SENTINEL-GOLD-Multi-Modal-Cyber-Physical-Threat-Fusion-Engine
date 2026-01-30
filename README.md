@@ -38,7 +38,7 @@ The system calculates advanced statistical states:
 ### Real-Time Pipeline
 | **Live Fusion Monitoring (CCTV + Terminal)** |
 | :---: |
-| <img src="assets/live_fusion_monitoring.png" width="600" /> |
+| <img src="assets/live_fusion_monitoring.png" width="800" /> |
 
 ## Setup & Installation
 
