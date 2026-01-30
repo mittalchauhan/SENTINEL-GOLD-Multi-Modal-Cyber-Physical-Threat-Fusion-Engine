@@ -25,8 +25,8 @@ The system operates across four layers:
 4. **Executive Suite (`app.py` & `business.py`):** A high-end Streamlit dashboard providing heuristic nodes, entropy tracking, and automated business reports.
 
 ## Tech Stack
-* **Data Processing:** Apache Spark, Kafka, PySpark[cite: 1, 2].
-* **Computer Vision:** OpenCV (HOG Descriptors)[cite: 2].
+* **Data Processing:** Apache Spark, Kafka, PySpark.
+* **Computer Vision:** OpenCV (HOG Descriptors).
 * **AI/NLP:** HuggingFace Transformers (GPT-2).
 * **Dashboard:** Streamlit, Plotly, Pandas.
 * **Backend:** Python, Windows Batch (Automation).
